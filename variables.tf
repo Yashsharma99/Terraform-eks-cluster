@@ -7,7 +7,7 @@ variable "cluster-name" {
 }
 
 variable "aws-region" {
-  default     = "us-east-1"
+  default     = "ap-south-1"
   type        = string
   description = "The AWS Region to deploy EKS"
 }
